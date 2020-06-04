@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CEBD0B8E550B07FD363853C /* Pods_japan_terebi_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418ACC8CC485382C628A3CFB /* Pods_japan_terebi_iOSTests.framework */; };
+		AC4CE38A244B9A5500CDCFC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC4CE389244B9A4A00CDCFC9 /* GoogleService-Info.plist */; };
+		AC5F46302447B44400ADE51A /* activityIndicator.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC5F462F2447B44300ADE51A /* activityIndicator.gif */; };
+		AC948E2A243F9CE900C4079B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC948E29243F9CE900C4079B /* AppDelegate.swift */; };
+		AC948E2C243F9CE900C4079B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC948E2B243F9CE900C4079B /* SceneDelegate.swift */; };
+		AC948E2E243F9CE900C4079B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC948E2D243F9CE900C4079B /* ViewController.swift */; };
+		AC948E31243F9CEA00C4079B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC948E2F243F9CEA00C4079B /* Main.storyboard */; };
+		AC948E33243F9D7200C4079B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC948E32243F9D7200C4079B /* Assets.xcassets */; };
+		AC948E36243F9D7200C4079B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC948E34243F9D7200C4079B /* LaunchScreen.storyboard */; };
+		AC948E41243F9D7300C4079B /* japan_terebi_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC948E40243F9D7300C4079B /* japan_terebi_iOSTests.swift */; };
+		AC948E4C243F9D7300C4079B /* japan_terebi_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC948E4B243F9D7300C4079B /* japan_terebi_iOSUITests.swift */; };
+		ACC88A83244DEDFE0079F58F /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC88A82244DEDFE0079F58F /* ChatCell.swift */; };
+		ACC88A85244DEE720079F58F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC88A84244DEE720079F58F /* Chat.swift */; };
+		ACFAE536244E5B1200A24114 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAE535244E5B1200A24114 /* MoreViewController.swift */; };
+		ACFAE538244E626100A24114 /* UsernameEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAE537244E626100A24114 /* UsernameEditViewController.swift */; };
+		ACFD3D4E244670B800FBC8C3 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD3D4D244670B800FBC8C3 /* Swift+Gif.swift */; };
+		B56EB5832C4BFAB15BB49CF1 /* Pods_japan_terebi_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FB95C2553D4EB54F5CFB88 /* Pods_japan_terebi_iOS.framework */; };
+		FE5D70D7F5BA73F2559FD9E9 /* Pods_japan_terebi_iOS_japan_terebi_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2289AFBAA32565BB08A58E /* Pods_japan_terebi_iOS_japan_terebi_iOSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC948E3D243F9D7300C4079B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC948E1E243F9CE900C4079B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC948E25243F9CE900C4079B;
+			remoteInfo = "japan_terebi-iOS";
+		};
+		AC948E48243F9D7300C4079B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC948E1E243F9CE900C4079B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC948E25243F9CE900C4079B;
+			remoteInfo = "japan_terebi-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15FB95C2553D4EB54F5CFB88 /* Pods_japan_terebi_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_japan_terebi_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		418ACC8CC485382C628A3CFB /* Pods_japan_terebi_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_japan_terebi_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EE360AF97B23120FDB7BDC /* Pods-japan_terebi-iOS-japan_terebi-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-japan_terebi-iOS-japan_terebi-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-japan_terebi-iOS-japan_terebi-iOSUITests/Pods-japan_terebi-iOS-japan_terebi-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B2289AFBAA32565BB08A58E /* Pods_japan_terebi_iOS_japan_terebi_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_japan_terebi_iOS_japan_terebi_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3635C0463DE8A90C179814 /* Pods-japan_terebi-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-japan_terebi-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-japan_terebi-iOSTests/Pods-japan_terebi-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CDBFFBED5F5AAE473119CC4 /* Pods-japan_terebi-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-japan_terebi-iOS.release.xcconfig"; path = "Target Support Files/Pods-japan_terebi-iOS/Pods-japan_terebi-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9131115412FBA1941CD3C472 /* Pods-japan_terebi-iOS-japan_terebi-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-japan_terebi-iOS-japan_terebi-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-japan_terebi-iOS-japan_terebi-iOSUITests/Pods-japan_terebi-iOS-japan_terebi-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4CE389244B9A4A00CDCFC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC5F462F2447B44300ADE51A /* activityIndicator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = activityIndicator.gif; sourceTree = "<group>"; };
+		AC948E26243F9CE900C4079B /* Japan Terebi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japan Terebi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC948E29243F9CE900C4079B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC948E2B243F9CE900C4079B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC948E2D243F9CE900C4079B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC948E30243F9CEA00C4079B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC948E32243F9D7200C4079B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC948E35243F9D7200C4079B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC948E37243F9D7200C4079B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC948E3C243F9D7300C4079B /* japan_terebi-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "japan_terebi-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC948E40243F9D7300C4079B /* japan_terebi_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japan_terebi_iOSTests.swift; sourceTree = "<group>"; };
+		AC948E42243F9D7300C4079B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC948E47243F9D7300C4079B /* japan_terebi-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "japan_terebi-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC948E4B243F9D7300C4079B /* japan_terebi_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japan_terebi_iOSUITests.swift; sourceTree = "<group>"; };
+		AC948E4D243F9D7500C4079B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC88A82244DEDFE0079F58F /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		ACC88A84244DEE720079F58F /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		ACFAE535244E5B1200A24114 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		ACFAE537244E626100A24114 /* UsernameEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameEditViewController.swift; sourceTree = "<group>"; };
+		ACFD3D4D244670B800FBC8C3 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		E3DF2AE1A97C9F53A2E2F8F8 /* Pods-japan_terebi-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-japan_terebi-iOS.debug.xcconfig"; path = "Target Support Files/Pods-japan_terebi-iOS/Pods-japan_terebi-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FB44653BDE157174AC416E6A /* Pods-japan_terebi-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-japan_terebi-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-japan_terebi-iOSTests/Pods-japan_terebi-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC948E23243F9CE900C4079B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56EB5832C4BFAB15BB49CF1 /* Pods_japan_terebi_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC948E39243F9D7300C4079B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CEBD0B8E550B07FD363853C /* Pods_japan_terebi_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC948E44243F9D7300C4079B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5D70D7F5BA73F2559FD9E9 /* Pods_japan_terebi_iOS_japan_terebi_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2012727590E6E4AECCB745DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FB95C2553D4EB54F5CFB88 /* Pods_japan_terebi_iOS.framework */,
+				6B2289AFBAA32565BB08A58E /* Pods_japan_terebi_iOS_japan_terebi_iOSUITests.framework */,
+				418ACC8CC485382C628A3CFB /* Pods_japan_terebi_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34B6F3F800CF05B5EFF13865 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3DF2AE1A97C9F53A2E2F8F8 /* Pods-japan_terebi-iOS.debug.xcconfig */,
+				8CDBFFBED5F5AAE473119CC4 /* Pods-japan_terebi-iOS.release.xcconfig */,
+				9131115412FBA1941CD3C472 /* Pods-japan_terebi-iOS-japan_terebi-iOSUITests.debug.xcconfig */,
+				47EE360AF97B23120FDB7BDC /* Pods-japan_terebi-iOS-japan_terebi-iOSUITests.release.xcconfig */,
+				7D3635C0463DE8A90C179814 /* Pods-japan_terebi-iOSTests.debug.xcconfig */,
+				FB44653BDE157174AC416E6A /* Pods-japan_terebi-iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC948E1D243F9CE900C4079B = {
+			isa = PBXGroup;
+			children = (
+				AC948E28243F9CE900C4079B /* japan_terebi-iOS */,
+				AC948E3F243F9D7300C4079B /* japan_terebi-iOSTests */,
+				AC948E4A243F9D7300C4079B /* japan_terebi-iOSUITests */,
+				AC948E27243F9CE900C4079B /* Products */,
+				34B6F3F800CF05B5EFF13865 /* Pods */,
+				2012727590E6E4AECCB745DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC948E27243F9CE900C4079B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC948E26243F9CE900C4079B /* Japan Terebi.app */,
+				AC948E3C243F9D7300C4079B /* japan_terebi-iOSTests.xctest */,
+				AC948E47243F9D7300C4079B /* japan_terebi-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC948E28243F9CE900C4079B /* japan_terebi-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC5F462F2447B44300ADE51A /* activityIndicator.gif */,
+				AC4CE389244B9A4A00CDCFC9 /* GoogleService-Info.plist */,
+				AC948E37243F9D7200C4079B /* Info.plist */,
+				AC948E29243F9CE900C4079B /* AppDelegate.swift */,
+				ACC88A84244DEE720079F58F /* Chat.swift */,
+				ACC88A82244DEDFE0079F58F /* ChatCell.swift */,
+				ACFAE535244E5B1200A24114 /* MoreViewController.swift */,
+				AC948E2B243F9CE900C4079B /* SceneDelegate.swift */,
+				ACFD3D4D244670B800FBC8C3 /* Swift+Gif.swift */,
+				ACFAE537244E626100A24114 /* UsernameEditViewController.swift */,
+				AC948E2D243F9CE900C4079B /* ViewController.swift */,
+				AC948E32243F9D7200C4079B /* Assets.xcassets */,
+				AC948E34243F9D7200C4079B /* LaunchScreen.storyboard */,
+				AC948E2F243F9CEA00C4079B /* Main.storyboard */,
+			);
+			path = "japan_terebi-iOS";
+			sourceTree = "<group>";
+		};
+		AC948E3F243F9D7300C4079B /* japan_terebi-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC948E40243F9D7300C4079B /* japan_terebi_iOSTests.swift */,
+				AC948E42243F9D7300C4079B /* Info.plist */,
+			);
+			path = "japan_terebi-iOSTests";
+			sourceTree = "<group>";
+		};
+		AC948E4A243F9D7300C4079B /* japan_terebi-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC948E4B243F9D7300C4079B /* japan_terebi_iOSUITests.swift */,
+				AC948E4D243F9D7500C4079B /* Info.plist */,
+			);
+			path = "japan_terebi-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC948E25243F9CE900C4079B /* japan_terebi-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC948E50243F9D7500C4079B /* Build configuration list for PBXNativeTarget "japan_terebi-iOS" */;
+			buildPhases = (
+				C18F258100F9765FC805A5F7 /* [CP] Check Pods Manifest.lock */,
+				AC948E22243F9CE900C4079B /* Sources */,
+				AC948E23243F9CE900C4079B /* Frameworks */,
+				AC948E24243F9CE900C4079B /* Resources */,
+				580286A428C2ACE7EDFC5E21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "japan_terebi-iOS";
+			productName = "japan_terebi-iOS";
+			productReference = AC948E26243F9CE900C4079B /* Japan Terebi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC948E3B243F9D7300C4079B /* japan_terebi-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC948E53243F9D7500C4079B /* Build configuration list for PBXNativeTarget "japan_terebi-iOSTests" */;
+			buildPhases = (
+				B3CA1AD169EB1AC7692A4BA7 /* [CP] Check Pods Manifest.lock */,
+				AC948E38243F9D7300C4079B /* Sources */,
+				AC948E39243F9D7300C4079B /* Frameworks */,
+				AC948E3A243F9D7300C4079B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC948E3E243F9D7300C4079B /* PBXTargetDependency */,
+			);
+			name = "japan_terebi-iOSTests";
+			productName = "japan_terebi-iOSTests";
+			productReference = AC948E3C243F9D7300C4079B /* japan_terebi-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC948E46243F9D7300C4079B /* japan_terebi-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC948E56243F9D7500C4079B /* Build configuration list for PBXNativeTarget "japan_terebi-iOSUITests" */;
+			buildPhases = (
+				CAC6E70A36C2BFA17F828A76 /* [CP] Check Pods Manifest.lock */,
+				AC948E43243F9D7300C4079B /* Sources */,
+				AC948E44243F9D7300C4079B /* Frameworks */,
+				AC948E45243F9D7300C4079B /* Resources */,
+				A19B7C64289249DD2289DB2D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC948E49243F9D7300C4079B /* PBXTargetDependency */,
+			);
+			name = "japan_terebi-iOSUITests";
+			productName = "japan_terebi-iOSUITests";
+			productReference = AC948E47243F9D7300C4079B /* japan_terebi-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC948E1E243F9CE900C4079B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Anime no Sekai";
+				TargetAttributes = {
+					AC948E25243F9CE900C4079B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					AC948E3B243F9D7300C4079B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AC948E25243F9CE900C4079B;
+					};
+					AC948E46243F9D7300C4079B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AC948E25243F9CE900C4079B;
+					};
+				};
+			};
+			buildConfigurationList = AC948E21243F9CE900C4079B /* Build configuration list for PBXProject "japan_terebi-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC948E1D243F9CE900C4079B;
+			productRefGroup = AC948E27243F9CE900C4079B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC948E25243F9CE900C4079B /* japan_terebi-iOS */,
+				AC948E3B243F9D7300C4079B /* japan_terebi-iOSTests */,
+				AC948E46243F9D7300C4079B /* japan_terebi-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC948E24243F9CE900C4079B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC948E36243F9D7200C4079B /* LaunchScreen.storyboard in Resources */,
+				AC948E33243F9D7200C4079B /* Assets.xcassets in Resources */,
+				AC4CE38A244B9A5500CDCFC9 /* GoogleService-Info.plist in Resources */,
+				AC948E31243F9CEA00C4079B /* Main.storyboard in Resources */,
+				AC5F46302447B44400ADE51A /* activityIndicator.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC948E3A243F9D7300C4079B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC948E45243F9D7300C4079B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		580286A428C2ACE7EDFC5E21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-japan_terebi-iOS/Pods-japan_terebi-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-japan_terebi-iOS/Pods-japan_terebi-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-japan_terebi-iOS/Pods-japan_terebi-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A19B7C64289249DD2289DB2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-japan_terebi-iOS-japan_terebi-iOSUITests/Pods-japan_terebi-iOS-japan_terebi-iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-japan_terebi-iOS-japan_terebi-iOSUITests/Pods-japan_terebi-iOS-japan_terebi-iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-japan_terebi-iOS-japan_terebi-iOSUITests/Pods-japan_terebi-iOS-japan_terebi-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CA1AD169EB1AC7692A4BA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-japan_terebi-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C18F258100F9765FC805A5F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-japan_terebi-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC6E70A36C2BFA17F828A76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-japan_terebi-iOS-japan_terebi-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC948E22243F9CE900C4079B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFAE538244E626100A24114 /* UsernameEditViewController.swift in Sources */,
+				ACFAE536244E5B1200A24114 /* MoreViewController.swift in Sources */,
+				ACFD3D4E244670B800FBC8C3 /* Swift+Gif.swift in Sources */,
+				ACC88A85244DEE720079F58F /* Chat.swift in Sources */,
+				AC948E2E243F9CE900C4079B /* ViewController.swift in Sources */,
+				AC948E2A243F9CE900C4079B /* AppDelegate.swift in Sources */,
+				AC948E2C243F9CE900C4079B /* SceneDelegate.swift in Sources */,
+				ACC88A83244DEDFE0079F58F /* ChatCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC948E38243F9D7300C4079B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC948E41243F9D7300C4079B /* japan_terebi_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC948E43243F9D7300C4079B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC948E4C243F9D7300C4079B /* japan_terebi_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC948E3E243F9D7300C4079B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC948E25243F9CE900C4079B /* japan_terebi-iOS */;
+			targetProxy = AC948E3D243F9D7300C4079B /* PBXContainerItemProxy */;
+		};
+		AC948E49243F9D7300C4079B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC948E25243F9CE900C4079B /* japan_terebi-iOS */;
+			targetProxy = AC948E48243F9D7300C4079B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC948E2F243F9CEA00C4079B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC948E30243F9CEA00C4079B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC948E34243F9D7200C4079B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC948E35243F9D7200C4079B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC948E4E243F9D7500C4079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC948E4F243F9D7500C4079B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC948E51243F9D7500C4079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DF2AE1A97C9F53A2E2F8F8 /* Pods-japan_terebi-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AVTBD9RT6M;
+				INFOPLIST_FILE = "japan_terebi-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animenosekai.japan-terebi-iOS";
+				PRODUCT_NAME = "Japan Terebi";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC948E52243F9D7500C4079B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDBFFBED5F5AAE473119CC4 /* Pods-japan_terebi-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AVTBD9RT6M;
+				INFOPLIST_FILE = "japan_terebi-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animenosekai.japan-terebi-iOS";
+				PRODUCT_NAME = "Japan Terebi";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC948E54243F9D7500C4079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3635C0463DE8A90C179814 /* Pods-japan_terebi-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "japan_terebi-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animenosekai.japan-terebi-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/japan_terebi-iOS.app/japan_terebi-iOS";
+			};
+			name = Debug;
+		};
+		AC948E55243F9D7500C4079B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB44653BDE157174AC416E6A /* Pods-japan_terebi-iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "japan_terebi-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animenosekai.japan-terebi-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/japan_terebi-iOS.app/japan_terebi-iOS";
+			};
+			name = Release;
+		};
+		AC948E57243F9D7500C4079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9131115412FBA1941CD3C472 /* Pods-japan_terebi-iOS-japan_terebi-iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "japan_terebi-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animenosekai.japan-terebi-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "japan_terebi-iOS";
+			};
+			name = Debug;
+		};
+		AC948E58243F9D7500C4079B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EE360AF97B23120FDB7BDC /* Pods-japan_terebi-iOS-japan_terebi-iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "japan_terebi-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animenosekai.japan-terebi-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "japan_terebi-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC948E21243F9CE900C4079B /* Build configuration list for PBXProject "japan_terebi-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC948E4E243F9D7500C4079B /* Debug */,
+				AC948E4F243F9D7500C4079B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC948E50243F9D7500C4079B /* Build configuration list for PBXNativeTarget "japan_terebi-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC948E51243F9D7500C4079B /* Debug */,
+				AC948E52243F9D7500C4079B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC948E53243F9D7500C4079B /* Build configuration list for PBXNativeTarget "japan_terebi-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC948E54243F9D7500C4079B /* Debug */,
+				AC948E55243F9D7500C4079B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC948E56243F9D7500C4079B /* Build configuration list for PBXNativeTarget "japan_terebi-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC948E57243F9D7500C4079B /* Debug */,
+				AC948E58243F9D7500C4079B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC948E1E243F9CE900C4079B /* Project object */;
+}

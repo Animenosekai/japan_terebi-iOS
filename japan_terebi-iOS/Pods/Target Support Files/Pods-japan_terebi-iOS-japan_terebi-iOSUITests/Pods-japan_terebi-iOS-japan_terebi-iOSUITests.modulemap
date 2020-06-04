@@ -1,0 +1,6 @@
+framework module Pods_japan_terebi_iOS_japan_terebi_iOSUITests {
+  umbrella header "Pods-japan_terebi-iOS-japan_terebi-iOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

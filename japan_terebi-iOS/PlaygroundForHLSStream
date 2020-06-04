@@ -1,0 +1,39 @@
+//: A UIKit based Playground for presenting user interface
+  
+import UIKit
+import AVKit
+import PlaygroundSupport
+
+class MyViewController : UIViewController {
+    override func loadView() {
+        
+        let videoURL = "https://vsd4.mycdn.me/hls/608030952065.m3u8/sig/-D34YezIYz4/expires/1587851966019/srcIp/176.175.59.169/clientType/0/srcAg/GECKO/mid/1425481014913/608030952065_high/index.m3u8"
+        let headers: [String:String] = ["User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"]
+        let asset = AVURLAsset(url: URL(string: videoURL)!, options: ["AVURLAssetHTTPHeaderFieldsKey": headers])
+        let playerItem = AVPlayerItem(asset: asset)
+        let player = AVPlayer(playerItem: playerItem)
+        player.play()
+        
+        
+        
+        let view = UIView()
+        view.backgroundColor = .white
+
+        let label = UILabel()
+        label.frame = CGRect(x: 150, y: 200, width: 200, height: 20)
+        label.text = "Hello World!"
+        label.textColor = .black
+        
+        view.addSubview(label)
+        self.view = view
+        let playerViewController = AVPlayerViewController()
+        playerViewController.player = player
+
+        present(playerViewController, animated: true) {
+          player.play()
+        }
+    }
+}
+// Present the view controller in the Live View window
+PlaygroundPage.current.liveView = MyViewController()
+
